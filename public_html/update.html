@@ -1,0 +1,29 @@
+<!--Created by Zitao Zhu on March 22nd-->
+<!--web page used for update data-->
+<!--March 27th changed the arrangment-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	    <title>Displaying MySQL Data in HTML Table</title>
+	    <style>
+	        .textfd{
+	            text-align: center;
+	        }
+	        .contentfd{
+                height:200px;
+                width:400px;
+                font-size:14pt;
+                top:0;
+            }
+	    </style>
+    </head>
+        <form class="textfd" action="/include/update.php">
+            Title of news you want to update<br>
+            <input type="text" name="selected_title" value=""><br>
+            New content:<br>
+            <input class = "contentfd" type="text" name="new_content" value=""><br><br>
+            <input type="submit">
+        </form> 
+
+<html>

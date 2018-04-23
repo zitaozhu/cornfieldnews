@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Login In Page</title>
+		<style type="text/css">
+			.main_wrapper{
+				margin: 0 auto;
+				width: 1000px;
+			}
+			a {
+				text-decoration: none: 
+			}
+
+			body{
+				background-color: #ccc;
+			}
+			header nav{
+				width: 100%;
+				height: 60px;
+				background-color: #fff;
+			}
+			header nav ul{
+				float: left;
+				list-style: none;
+			}
+			header nav ul li{
+				float: left;
+				list-style: none;
+			}
+			header nav ul li a{
+				font-family: arial；
+				font-size: 16px;
+				color: #111;
+				line-height: 63px;
+				list-style: none;
+			}
+			header .nav-login{
+				float:right;
+			}
+			header .nav-login form{
+				float:right;
+				padding-top: 15px;
+			}
+			header .nav-login form input{
+				float:left;
+				width: 140px;
+				height: 30px;
+				padding: 0px 10px;
+				margin-right: 10px;
+				border: none;
+				background-color: #ccc;
+				font-family: arial；
+				font-size: 16px;
+				color: #111;
+				line-height: 30px;
+			}
+			header .nav-login form button {
+				float:left;
+				width: 60px;
+				height: 30px;
+				margin-right: 10px;
+				border: none;
+				background-color: #f3f3f3;
+				font-family: arial；
+				font-size: 16px;
+				color: #111;
+				cursor: pointer;
+			}
+			header .nav-login form button:hover {
+				background-color: #ccc;
+			}
+			header .nav-login a {
+				display: block;
+				width: 60px;
+				height: 60px;
+				float: left;
+				border: none;
+				background-color: #fff;
+				font-family: arial；
+				font-size: 16px;
+				color: #111;
+				line-height: 63px;
+				cursor: pointer;
+			}
+			.main-container h2{
+				font-family: arial；
+				font-size: 40px;
+				color: #111;
+				line-height: 50px;
+				text-align: center;
+			}
+
+
+		</style>
+	</head>
+
+	<body> 
+		<header>
+			<nav>
+				<div class = "main_wrapper">
+					<ul>
+						<li><a href="index.html">Back to home page</a></li>
+					</ul>
+					<div class = "nav-login">
+						<form class = "signup-form" action= "include/login.php" method = "GET">
+							<input type="text" name="userid" placeholder="Username">
+							<input type="password" name="userpwd" placeholder="password">
+							<button type = "submit" name="submit">Login</button>
+						</form>
+						<!--<li><a href="signup.html">Sign Up</a></li>-->
+						<form class="link" form method=get action="addusers.php">
+                         <button type="submit">Sign up</button>
+                        </form>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<section class = "main-container">
+			<div class = "main_wrapper">
+				<h2>Home</h2>
+			</div>
+		</section>
+
+
+
+
+	</body>
+	
+
+
+
+
+
+
+</html>
