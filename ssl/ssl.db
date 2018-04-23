@@ -1,0 +1,45 @@
+--- 
+files: 
+  certificate: 
+    cornfieldnews_web_engr_illinois_edu_a502c_913f3_1551908728_73d2e1c55f0db453c373a1ca9f9143fb: 
+      created: '1520372728'
+      domains: 
+        - cornfieldnews.web.engr.illinois.edu
+        - mail.cornfieldnews.web.engr.illinois.edu
+        - www.cornfieldnews.web.engr.illinois.edu
+      friendly_name: Cert for “cornfieldnews.web.engr.illinois.edu”
+      id: cornfieldnews_web_engr_illinois_edu_a502c_913f3_1551908728_73d2e1c55f0db453c373a1ca9f9143fb
+      is_self_signed: 1
+      issuer.commonName: cornfieldnews.web.engr.illinois.edu
+      issuer.organizationName: ~
+      modulus: a502c92b600bcea488e9f9f98b2fd430e48f855a14788d7ffb5ac080728c301c7b1afc71ec48ba98cfc8c306ca282cedaa848833771dcae8a10b6a8bb798bb34db94d4e8f2bc48d1d4591740bf3cb1a52348010bd48685c9dccdd7d2bfe9217bddf87bfaba8307a830cf302f9a3cfb34d27da7366c54a30d16d6c26fff413ff2ef00f92174523129114841b50e6b716ef8ccb6ac664d8844e878347f3bd7078ba8f9f20d38476fe375f76d93f9676eb62f82b908ea9b0ed73b28c379fdf26067e103855d20f5576bfda2d5a141a2ca839c0b9c85b148c8375c11ecf3c085176a4a8068c7a5c9eb3c32fd513f98d5a6e45a1da743311c5fab533984b2785913f3
+      modulus_length: 2048
+      not_after: '1551908728'
+      not_before: '1520372728'
+      signature_algorithm: sha256WithRSAEncryption
+      subject.commonName: cornfieldnews.web.engr.illinois.edu
+      validation_type: ~
+  key: 
+    a502c_913f3_f91d0bf66f14bed99aff4487dd0939de: 
+      created: '1520372728'
+      friendly_name: Key for “cornfieldnews.web.engr.illinois.edu”
+      id: a502c_913f3_f91d0bf66f14bed99aff4487dd0939de
+      modulus: a502c92b600bcea488e9f9f98b2fd430e48f855a14788d7ffb5ac080728c301c7b1afc71ec48ba98cfc8c306ca282cedaa848833771dcae8a10b6a8bb798bb34db94d4e8f2bc48d1d4591740bf3cb1a52348010bd48685c9dccdd7d2bfe9217bddf87bfaba8307a830cf302f9a3cfb34d27da7366c54a30d16d6c26fff413ff2ef00f92174523129114841b50e6b716ef8ccb6ac664d8844e878347f3bd7078ba8f9f20d38476fe375f76d93f9676eb62f82b908ea9b0ed73b28c379fdf26067e103855d20f5576bfda2d5a141a2ca839c0b9c85b148c8375c11ecf3c085176a4a8068c7a5c9eb3c32fd513f98d5a6e45a1da743311c5fab533984b2785913f3
+      modulus_length: 2048
+indexes: 
+  certificate: 
+    modulus: 
+      a502c92b600bcea488e9f9f98b2fd430e48f855a14788d7ffb5ac080728c301c7b1afc71ec48ba98cfc8c306ca282cedaa848833771dcae8a10b6a8bb798bb34db94d4e8f2bc48d1d4591740bf3cb1a52348010bd48685c9dccdd7d2bfe9217bddf87bfaba8307a830cf302f9a3cfb34d27da7366c54a30d16d6c26fff413ff2ef00f92174523129114841b50e6b716ef8ccb6ac664d8844e878347f3bd7078ba8f9f20d38476fe375f76d93f9676eb62f82b908ea9b0ed73b28c379fdf26067e103855d20f5576bfda2d5a141a2ca839c0b9c85b148c8375c11ecf3c085176a4a8068c7a5c9eb3c32fd513f98d5a6e45a1da743311c5fab533984b2785913f3: 
+        cornfieldnews_web_engr_illinois_edu_a502c_913f3_1551908728_73d2e1c55f0db453c373a1ca9f9143fb: ~
+    subject.commonName: 
+      cornfieldnews.web.engr.illinois.edu: 
+        cornfieldnews_web_engr_illinois_edu_a502c_913f3_1551908728_73d2e1c55f0db453c373a1ca9f9143fb: ~
+uniques: 
+  certificate: 
+    friendly_name: 
+      Cert for “cornfieldnews.web.engr.illinois.edu”: cornfieldnews_web_engr_illinois_edu_a502c_913f3_1551908728_73d2e1c55f0db453c373a1ca9f9143fb
+  key: 
+    friendly_name: 
+      Key for “cornfieldnews.web.engr.illinois.edu”: a502c_913f3_f91d0bf66f14bed99aff4487dd0939de
+    modulus: 
+      a502c92b600bcea488e9f9f98b2fd430e48f855a14788d7ffb5ac080728c301c7b1afc71ec48ba98cfc8c306ca282cedaa848833771dcae8a10b6a8bb798bb34db94d4e8f2bc48d1d4591740bf3cb1a52348010bd48685c9dccdd7d2bfe9217bddf87bfaba8307a830cf302f9a3cfb34d27da7366c54a30d16d6c26fff413ff2ef00f92174523129114841b50e6b716ef8ccb6ac664d8844e878347f3bd7078ba8f9f20d38476fe375f76d93f9676eb62f82b908ea9b0ed73b28c379fdf26067e103855d20f5576bfda2d5a141a2ca839c0b9c85b148c8375c11ecf3c085176a4a8068c7a5c9eb3c32fd513f98d5a6e45a1da743311c5fab533984b2785913f3: a502c_913f3_f91d0bf66f14bed99aff4487dd0939de
